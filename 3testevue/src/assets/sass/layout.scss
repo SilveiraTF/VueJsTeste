@@ -1,0 +1,80 @@
+@import "./variables";
+@import "./generic";
+@import "./overrides";
+@import "./typography";
+
+td {
+    padding: 10px;
+    border: 1px solid $colorBlueW;
+}
+.col-6 {
+    flex: 0 0 auto;
+    padding: .5rem;
+    width: 60%;
+}
+
+.col-offset-3{	
+    margin-left: 24%;
+}
+
+h2 {
+	font-size: 2rem;
+    text-align: center;
+    font-family: monospace
+}
+
+h3 {
+	font-size: 1.75rem;
+    text-align: center;
+    font-family: monospace
+}
+
+.card {
+    font-family: monospace;
+    text-align: center;
+    font-size: 2rem;
+}
+
+.repos {
+    font-family: monospace;
+    padding: 20px;
+    margin: 20px auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.op1{
+    width: 38%;
+    display: inline-block;
+    font-size: 2rem;
+    text-align: center;
+    padding: 2px 0px 2px 0px;
+    min-width:40px;
+    background-color: $colorBlueH;
+
+}
+.op2{
+    width: 38%;
+    display: inline-block;
+    margin-right: 0px;
+    font-size: 2rem;
+    text-align: center;
+    padding: 2px 0px 2px 0px;
+    background-color: $colorBlueH;
+
+}
+
+*
+{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: 050505;
+}
