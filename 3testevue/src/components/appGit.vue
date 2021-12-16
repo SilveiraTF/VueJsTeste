@@ -40,8 +40,6 @@
         <Column field="full_name" header="Full Name"></Column>
       </DataTable>
     </div>
-    <div class="cube">
-    </div>
   </div>
 </template>
 
